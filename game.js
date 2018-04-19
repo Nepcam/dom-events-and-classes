@@ -61,6 +61,7 @@ function updateCounts () {
   displayTotals(totals)
 }
 
+
 function displayTotals (totals) {
   for (var key in totals) {
     document.getElementById(key + '-total').innerHTML = totals[key]
